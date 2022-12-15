@@ -1,0 +1,545 @@
+﻿/*nav-bar*/
+.menu li {
+    float: left;
+    display: inline;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #948eb7;
+    font-size: 20px;
+}
+
+    .menu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        .menu li a:hover {
+            background-color: #606a87;
+        }
+/*dropdown menu*/
+.drpdSpan {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #baacce;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+    .dropdown-content li {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #7e7299;
+    }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .drpdSpan {
+    background-color: #3b4160;
+}
+/*cart icon*/
+.fa-shopping-cart {
+    font-size: 28px;
+    margin-left: 610px;
+    margin-top: 12px;
+}
+/*logo*/
+#logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    height: 150px;
+    float: right;
+    margin-right: 15px;
+    margin-top: -95px;
+}
+
+#logo2 {
+    width: 350px;
+    height: 250px;
+    margin-left: -375px;
+    margin-bottom: -420px;
+}
+
+.footer .logo-wrapper {
+    margin: 0;
+}
+
+.header .logo-wrapper {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+/*gifs*/
+.gif-content {
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gif {
+    margin: 2px;
+    padding: 5px 2px 5px 2px;
+}
+
+#gif1 img {
+    width: 300px;
+    height: 400px;
+}
+
+#gif2 img {
+    width: 710px;
+    height: 400px;
+}
+
+#gif3 img {
+    width: 300px;
+    height: 400px;
+}
+/*най-нови*/
+.content h2 {
+    margin-top: 65px;
+    margin-left: 45px;
+    font-size: 28px;
+}
+
+.podzagl:hover {
+    color: #836090;
+}
+
+.books-nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin: 0 5px 10px 4px;
+    background-color: rgba(225,123,123,0.3);
+    border-radius: 12px;
+    padding: 2px 10px;
+    min-width: 28%;
+    max-width: 31%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .item:hover {
+        cursor: pointer;
+        transform: scale(0.9);
+    }
+
+
+.books img {
+    width: 185px;
+    height: 273px;
+}
+
+.books h3 {
+    margin-left: 50px;
+}
+
+.books h4 {
+    margin-left: 95px;
+    margin-top: -15px;
+    font-style: italic;
+}
+
+.books h2 {
+    margin-left: 125px;
+}
+
+#zagl1 {
+    margin-left: 50px;
+}
+
+#avt1 {
+    margin-left: 125px;
+}
+
+#zagl2 {
+    margin-left: 135px;
+}
+
+#avt2 {
+    margin-left: 160px;
+}
+
+#zagl3 {
+    margin-left: 80px;
+}
+
+#avt3 {
+    margin-left: 125px;
+}
+
+#zagl4 {
+    margin-left: 105px;
+}
+
+#avt4 {
+    margin-left: 145px;
+}
+
+#zagl5 {
+    margin-left: 75px;
+}
+
+#avt5 {
+    margin-left: 130px;
+}
+
+#zagl6 {
+    margin-left: 75px;
+}
+
+#avt6 {
+    margin-left: 155px;
+}
+/*промо бокс - книгите*/
+.promo-nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*промо -25*/
+#zagl125 {
+}
+
+#avt125 {
+    margin-left: 165px;
+}
+
+#cena125 {
+    margin-top: 25px;
+}
+
+#zagl225 {
+    margin-left: 100px;
+}
+
+#avt225 {
+    margin-left: 145px;
+}
+
+#cena225 {
+    margin-top: 50px;
+}
+
+#zagl325 {
+    margin-left: 80px;
+}
+
+#avt325 {
+    margin-left: 135px;
+}
+
+#cena325 {
+    margin-top: 50px;
+}
+
+#zagl425 {
+    margin-left: 40px;
+}
+
+#avt425 {
+    margin-left: 160px;
+}
+
+#cena425 {
+    margin-top: 25px;
+}
+
+#zagl525 {
+    margin-left: 75px;
+}
+
+#avt525 {
+    margin-left: 165px;
+}
+
+#cena525 {
+    margin-top: 50px;
+}
+
+#zagl625 {
+    margin-left: 75px;
+}
+
+#avt625 {
+    margin-left: 145px;
+}
+
+#cena625 {
+    margin-top: 50px;
+}
+/*промо -30*/
+#zagl130 {
+    margin-left: 35px;
+}
+
+#avt130 {
+    margin-left: 135px;
+}
+
+#cena130 {
+    margin-top: 50px;
+}
+
+#zagl230 {
+    margin-left: 125px;
+}
+
+#avt2302 {
+    margin-left: 158px;
+}
+
+#cena230 {
+    margin-top: 30px;
+}
+
+#zagl330 {
+    margin-left: 85px;
+}
+
+#avt330 {
+    margin-left: 145px;
+}
+
+#cena330 {
+    margin-top: 50px;
+}
+
+#zagl430 {
+    margin-left: 85px;
+}
+
+#avt430 {
+    margin-left: 165px;
+}
+
+#cena430 {
+    margin-top: 50px;
+}
+
+#zagl530 {
+    margin-left: 75px;
+}
+
+#avt530 {
+    margin-left: 125px;
+}
+
+#cena530 {
+    margin-top: 50px;
+}
+
+#zagl630 {
+    margin-left: 60px;
+}
+
+#avt630 {
+    margin-left: 105px;
+}
+
+#cena630 {
+    margin-top: 50px;
+}
+/*промо -50*/
+#zagl150 {
+    margin-left: 72px;
+}
+
+#avt150 {
+    margin-left: 125px;
+}
+
+#cena150 {
+    margin-top: 50px;
+}
+
+#zagl250 {
+    margin-left: 45px;
+}
+
+#avt250 {
+    margin-left: 150px;
+}
+
+#cena250 {
+    margin-top: 25px;
+}
+
+#zagl350 {
+    margin-left: 75px;
+}
+
+#avt350 {
+    margin-left: 165px;
+}
+
+#cena350 {
+    margin-top: 45px;
+}
+
+#zagl450 {
+    margin-left: 55px;
+}
+
+#avt450 {
+    margin-left: 180px;
+}
+
+#cena450 {
+    margin-top: 50px;
+}
+
+#zagl550 {
+    margin-left: 115px;
+}
+
+#avt550 {
+    margin-left: 135px;
+}
+
+#cena550 {
+    margin-top: 50px;
+}
+
+#zagl650 {
+    margin-left: 105px;
+}
+
+#avt650 {
+    margin-left: 160px;
+}
+
+#cena650 {
+    margin-top: 50px;
+}
+/*buttons*/
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+}
+
+button {
+    margin: 15px 5px 15px 5px;
+    background-color: #fff;
+    color: #606a87;
+    padding: 10px 5px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+    button:hover {
+        background: transparent;
+    }
+
+    button i {
+        color: #7e7299;
+        transform-origin: top;
+    }
+/*оценка*/
+.star-rating {
+    font-size: 20px;
+    margin-left: 130px;
+    margin-top: -15px;
+}
+
+.checked {
+    color: orange;
+}
+/*promo ceni*/
+.promoCeni {
+    margin-left: 165px;
+    margin-top: -20px;
+    text-decoration: line-through;
+}
+/*footer*/
+.nav-footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(111,123,123,0.3);
+}
+
+.info {
+    margin: 10px;
+    padding: 2px 10px;
+    min-width: 22%;
+    max-width: 35%;
+    height: 350px;
+    font-size: 20px;
+    background-color: white;
+}
+
+    .info ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .info a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .info li a:hover {
+        cursor: pointer;
+        color: #948eb7;
+    }
+
+.social {
+    float: right;
+    font-size: 60px;
+    height: 200px;
+    /* display: flex;
+            flex-wrap: wrap;*/
+    list-style-type: none;
+    margin-top: 125px;
+}
+
+    .social i:hover {
+        cursor: pointer;
+        color: #948eb7;
+    }
+
+.book-info {
+    margin-top: -280px;
+    margin-left: 150px;
+}
+
+#zagl1 a {
+    text-decoration: none;
+    color: inherit;
+}
