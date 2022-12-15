@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Вход</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/LogIn.css" type="text/css"/>
+    <style>
+        /** {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .background {
+            height: 100%;
+            width: 100%;
+            background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(Images/bckgr.png);
+            background-position: center;
+            background-size: cover;
+            position: absolute;
+        }
+
+        .form-box {
+            width: 390px;
+            height: 490px;
+            position: relative;
+            margin: 6% auto;
+            background: #fff;
+            padding: inherit;
+            overflow: hidden;
+        }
+
+        .button-box {
+            width: 235px;
+            margin: 60px auto;
+            position: relative;
+            box-shadow: 0 0 20px 9px #994c97;
+            border-radius: 30px;
+        }
+
+        .toggle-btn {
+            padding: 10px 30px;
+            cursor: pointer;
+            background: transparent;
+            border: 0;
+            outline: none;
+            position: relative;
+        }
+
+        #btn {
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 125px;
+            height: 100%;
+            background: linear-gradient(to right, #d818e7,#ffad06);
+            border-radius: 30px;
+            transition: 0.5s;
+        }
+
+        .input {
+            top: 120px;
+            position: absolute;
+            width: 280px;
+            transition: 0.5s;
+        }
+
+        .input-item {
+            width: 100%;
+            padding: 10px 0;
+            margin: 5px 0;
+            border: 0 0 1px solid #999 0;
+            outline: none;
+            background: transparent;
+        }
+
+        .submit-btn {
+            width: 85%;
+            padding: 10px 30px;
+            cursor: pointer;
+            display: block;
+            margin: auto;
+            background: linear-gradient(to right, #d818e7,#ffad06);
+            border: 0;
+            border-radius: 30px;
+            outline: none;
+        }
+
+        .check-box {
+            margin: 25px 10px 30px 0;
+        }
+
+        span {
+            color: #777;
+            font-size: 14px;
+            bottom: 144px;
+            position: absolute;
+        }
+
+        #logIn {
+            left: 50px;
+        }
+
+        #signUp {
+            left: 450px;
+        }
+
+        .far {
+            margin-left: 258px;
+            margin-bottom: 55px;
+            cursor: pointer;
+        }
+
+        .eye {
+            position: absolute;
+        }
+
+        #hide1 {
+            display: none;
+        }
+        #logIn .under-btn{
+            font-size:13px;
+            display:flex;
+            margin:15px;
+            padding:10px;
+            align-items:stretch;
+        }
+        #signUp .under-btn2 {
+            font-size: 13px;*/
+           /* display: flex;*/
+            /*margin-left: 90px;
+            margin-top:15px;
+            padding-left: 20px;
+            position: center;
+            align-content:space-evenly;
+        }
+        #signUp span{
+            margin-bottom:-50px;
+        }
+        label{
+            cursor:pointer;
+        }
+        label a{
+            text-decoration:none;
+        }*/
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()">Вход</button>
+                    <button type="button" class="toggle-btn" onclick="register()">Регистрация</button>
+                
+            </div>
+            <form id="logIn" class="input">
+                <input type="text" class="input-item" placeholder="Username" required />
+                <div>
+                    <input type="text" class="input-item" placeholder="Password" id="pass" required />
+                    <span class="eye" onclick="myFunction()">
+                        <i class="far fa-eye" id="hide1"></i>
+                        <i class="far fa-eye-slash" id="hide2"></i>
+                    </span>
+                </div>
+
+                <input type="checkbox" class="check-box" /><span>Запомни паролата</span>
+                <button type="submit" class="submit-btn">Вход</button>
+                <div class="under-btn">
+                    <label onclick="register()">Регистрирай се!</label>
+                    <label>Забравена парола?</label>
+                    <label><a href="index.html">Начало</a></label>
+                </div>
+            </form>
+            <form id="signUp" class="input">
+                <input type="text" class="input-item" placeholder="Name" required />
+                <input type="text" class="input-item" placeholder="Username" required />
+                <input type="text" class="input-item" placeholder="Email" required />
+                <input type="text" class="input-item" placeholder="Password" required />
+                <input type="checkbox" class="check-box" /><span>Съгласен съм с всички условия</span>
+                <button type="submit" class="submit-btn">Регистрация</button>
+                <div class="under-btn2">
+                    <label onclick="login()">Вход</label>
+                    <label><a href="index.html">Начало</a></label>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
+<script type="text/javascript" src="Java/LogIn.js"></script>

@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTML", "HTML\HTML.csproj", "{E2470657-CC03-4A71-806E-CC485DB0F2FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{87597F62-8355-4342-AAB7-3C9D2FDE7E3E}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\book1.css = CSS\book1.css
+		book1.html = book1.html
+		Java\book1.js = Java\book1.js
+		CSS\BooksIzd.css = CSS\BooksIzd.css
+		BooksIzd.html = BooksIzd.html
+		CSS\ContactsIzdatelstvo.css = CSS\ContactsIzdatelstvo.css
+		ContactsIzdatelstvo.html = ContactsIzdatelstvo.html
+		CSS\ForUsIzdatelstvo.css = CSS\ForUsIzdatelstvo.css
+		ForUsIzdatelstvo.html = ForUsIzdatelstvo.html
+		CSS\index.css = CSS\index.css
+		index.html = index.html
+		CSS\LogIn.css = CSS\LogIn.css
+		LogIn.html = LogIn.html
+		Java\LogIn.js = Java\LogIn.js
+		CSS\movie1.css = CSS\movie1.css
+		movie1.html = movie1.html
+		Java\movie1.js = Java\movie1.js
+		CSS\MoviesIzd.css = CSS\MoviesIzd.css
+		MoviesIzd.html = MoviesIzd.html
+		CSS\SignUp.css = CSS\SignUp.css
+		SignUp.html = SignUp.html
+		Java\SignUp.js = Java\SignUp.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2470657-CC03-4A71-806E-CC485DB0F2FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2470657-CC03-4A71-806E-CC485DB0F2FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2470657-CC03-4A71-806E-CC485DB0F2FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2470657-CC03-4A71-806E-CC485DB0F2FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6929F17A-A6D1-4FAD-A481-911D73F61BDB}
+	EndGlobalSection
+EndGlobal
